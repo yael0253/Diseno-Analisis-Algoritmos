@@ -4,11 +4,11 @@
  */
 
 const A = [];
-    const arrayLength = 10; // Cambiar la longitud del arreglo según sea necesario
-    const minRandomValue = -50; // Valor mínimo para los números aleatorios
+    const arrayLength = 12; // Cambiar la longitud del arreglo según sea necesario
+    const minRandomValue = -10; // Valor mínimo para los números aleatorios
     const maxRandomValue = 50; // Valor máximo para los números aleatorios
 
-    // Llenar el arreglo automáticamente con valores aleatorios
+    // Llenar el arreglo automáticamente con valores aleatorios (array)
     for (let i = 0; i < arrayLength; i++) {
         const randomValue = Math.floor(Math.random() * (maxRandomValue - minRandomValue + 1)) + minRandomValue;
         A.push(randomValue);
@@ -24,6 +24,6 @@ const A = [];
         i++;
     }
 
-    console.log("The smallest number is:", buscador);
-    console.log("Generated array:", A);
+    console.log("El numero mas pequeño es:", buscador);
+    console.log("Secuencia generada (Array):", A);
 
